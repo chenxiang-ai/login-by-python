@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <head><title>创建会议页面</title></head>
+    <body>
+        <h1>操作页面</h1>
+        <form action="/conference" method="GET">
+            <p>
+                <br>会议号:<br>  <input type="text" name='conference_id'>
+            </p>
+            <p>
+                <br>密码:<br> <input type='password' name='conference_pd'>
+            </p>
+            <p>
+                <br>确认密码:<br> <input type='password' name='conference_repd'>
+            </p>
+            <p>
+                <br>全员静音:<br> <input type='checkbox' name='mute'>
+            </p>
+            <p>
+                <br>确认密码:<br> <input type='checkbox' name='camera'>
+            </p>
+            <input type="submit" value='创建' name='establish'>
+        </form>
+    </body>
+</html>
